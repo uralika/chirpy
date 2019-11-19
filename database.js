@@ -13,7 +13,8 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
 		console.log('Connected to the SQLite database.')
 		db.run(`CREATE TABLE chirps (
 			id INTEGER PRIMARY KEY AUTOINCREMENT,
-			text string NOT NULL
+			text string NOT NULL,
+			upvotes INTEGER DEFAULT 0
 			)`,
 		(err) => {
 			if (err) {

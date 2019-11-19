@@ -1,18 +1,19 @@
 {
-  "name": "chirps",
-  "version": "1.0.0",
-  "description": "Chirp-chirp",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Anastasiya Sutyagina",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "sqlite3": "^4.1.0"
-  }
+	"name": "chirps",
+	"version": "1.0.0",
+	"description": "Chirp-chirp",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "Anastasiya Sutyagina",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"morgan": "^1.9.1",
+		"sqlite3": "^4.1.0"
+	}
 }
